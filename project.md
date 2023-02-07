@@ -1,29 +1,29 @@
 # CIT 352: Project 1
 
-Name: _Your name here_ <!-- TODO -->
+Name: Micah Sudweeks <!-- TODO -->
 
 1. Terminals [5]
     1. Boot Fedora and login as user 1 through GNOME Display Manager
     1. Open a terminal
     1. Login as root on tty5 __[SC]__ make sure your screen
     capture includes the “tty5” string 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.1.png) <!-- TODO -->
     1. Switch back to tty2
     1. Show all users who are logged into your system,
     including the information about which console they are logged in
     (tty2 and tty5) __[SC]__
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.1_2.png) <!-- TODO -->
 
 2. Getting Command Help [4]
     1.  Display the man page for the ls command __[SC]__
     capture the man page only, not the command
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.2_1.png) <!-- TODO -->
     1. You can’t remember the command to shut down the system.
     You know there are several commands related to halting the system.
     Using “halt” as the key word,
     list all commands (one line each) that are related
     to shutting down the system __[SC]__
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.2_2.png) <!-- TODO -->
 
 3. Changing Directories [5]
     1. Change the current working directory from one directory to
@@ -38,44 +38,39 @@ Name: _Your name here_ <!-- TODO -->
         1. From /etc/ssh, move to /usr/bin in one
         step using the relative pathname 
         1. Print the absolute pathname to the current working directory 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.3.png) <!-- TODO -->
 
 4. File Types [4]
     1. Determine the file type for /etc/os-release __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.4_1.png) <!-- TODO -->
     1. Display both hidden and unhidden files in
     your home directory __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.4_2.png) <!-- TODO -->
 
 5. Wildcard Metacharacters [4]
     1. Using the ls command, list all files that start with the
     word “zip” under the /bin directory. Do not use grep
     or other commands to filter the output __[SC]__
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.5_1.png) <!-- TODO -->
     1. Using the ls command, list tty30 through tty39, but not tty3,
     under the /dev directory. Do not use grep or other commands
     to filter the output __[SC]__  
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.5_2.png) <!-- TODO -->
 
 6. Displaying the content of a file [2]
     1. Display the last 5 lines of /usr/include/error.h __[SC]__  
         1. If the above file does not exist in your system, 
         give the following command: `sudo dnf install glibc-headers2`
-        1. ![Alt Text](media/file.png) <!-- TODO -->
-    1. You can’t remember the command to shut down the system.
-    You know there are several commands related to halting the system.
-    Using “halt” as the key word, list all commands (one line each)
-    that are related to shutting down the system __[SC]__  
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.6.png) <!-- TODO -->
 
 7. Regular Expressions [4]
     1. Print the lines which include the word “stab” or “STAB”
     (i.e. case insensitive) in /usr/include/stab.h __[SC]__    
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.7_1.png) <!-- TODO -->
     1. Print the lines which include the word “f#etpos” where # is
     any one alphanumeric (number or letter)
     character in /usr/include/stdio.h __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.7_2.png) <!-- TODO -->
 
 ```
 /bin
