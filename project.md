@@ -90,7 +90,7 @@ Name: Micah Sudweeks <!-- TODO -->
     1. Save the file and exit vi
     1. display the content of the FHS file __[SC]__
     no need to include the vi editing screen
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.8.png) <!-- TODO -->
 
 9. Managing Files and Directories [7]
     1. While in your home directory, do the following.
@@ -106,18 +106,18 @@ Name: Micah Sudweeks <!-- TODO -->
         1. Show that hostname and hostname2 exist under Exam1.1
         directory and no other file 
         1. Rename Exam1.1 to Exam1.2 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.9.png) <!-- TODO -->
 
 10. Finding Files [6]
     1. Using the find command, list all files whose
     filenames start with sda under /dev directory __[SC]__  
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.10_1.png) <!-- TODO -->
     1. Using the find command, list all directories (no files)
     under /dev/disk directory __[SC]__   
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.10_2.png) <!-- TODO -->
     1. Show where the more command exists in the filesystem hierarchy
     structure without using the find, ls, or locate command __[SC]__   
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.10_3.png) <!-- TODO -->
 
 11. Linking Files [4]
     1. Create a file called file1 with your first and
@@ -125,17 +125,17 @@ Name: Micah Sudweeks <!-- TODO -->
     1. Create a symbolic link “file1SymLink” for file1 under Exam1 
     1. Create a hard link “file1HardLink” for file1 under Exam1 
     1. Show the output of `ls -il file1*` command __[SC]__  
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.11.png) <!-- TODO -->
 
 12. File and Directory Permissions [2]
     1. Create an empty file file2 under Exam1 
     1. Give the command to change the mode of file2 as follow: 
     `-rwxr--r--. 1 user1 user1 0 May 15 19:49 file2` __[SC]__
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.12.png) <!-- TODO -->
 
 13. Filesystems [2]
     1. Show all mounted disk drives with their filesystem types __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.13.png) <!-- TODO -->
 
 14. Preparation for the next hands-on problem [0]
     1. Add a new virtual hard disk by following the steps below
@@ -159,11 +159,11 @@ Name: Micah Sudweeks <!-- TODO -->
 15. Partition a Disk [4]
     1. Using cfdisk, create 3 primary partitions (MBR) with 
     1 GB each on the new disk.  __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.15_1.png) <!-- TODO -->
     1. Display all the block devices in a tree structure including
     the newly created disk and partitions. It should
     look similar to the last figure in 14d. __[SC]__  
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.15_2.png) <!-- TODO -->
 
 16. Install a Filesystem and Mount the Drive [8]
     1. Install ext4 filesystem on the first
