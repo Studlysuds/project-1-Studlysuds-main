@@ -171,30 +171,30 @@ Name: Micah Sudweeks <!-- TODO -->
     1. Create a mount point at /exam1/mydrive 
     1. Mount the drive at /exam1/mydrive 
     1. Insert the screen capture of all steps above __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.16_1.png) <!-- TODO -->
     1. Edit the configuration file so that the disk
     mounting will survive across reboot. __[SC]__  
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.16_2.png) <!-- TODO -->
     1. [Optional] Comment out the line you just added in the
     configuration file by adding a hashtag at the beginning of the line 
 
 17. Working with an LVM Volumes [16] 
     1. Create two LVM Physical Volumes using the remaining partitions
     (e.g. /dev/sdb2, /dev/sdb3) you created in the previous step __[SC]__  
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.17_1.png) <!-- TODO -->
     1. Create an LVM Volume Group called “exam1vg”
     from the above PVs __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.17_2.png) <!-- TODO -->
     1. Create an LVM Logical Volume called “exam1lv” with 1.5 GB
     of storage space allocated from “exam1vg” __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.17_3.png) <!-- TODO -->
     1. Scan the physical volume information __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.17_4.png) <!-- TODO -->
     1. Install the ext4 filesystem on the logical volume __[SC]__ 
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.17_5.png) <!-- TODO -->
     1. Create a mount point at /exam1/lvdrive 
     1. Mount the drive at /exam1/lvdrive 
     1. Display all the block devices in a tree structure, including the
     logical volume being added in the previous steps __[SC]__
-        1. ![Alt Text](media/file.png) <!-- TODO -->
+        1. ![Alt Text](media/Project-1.17_6.png) <!-- TODO -->
 
